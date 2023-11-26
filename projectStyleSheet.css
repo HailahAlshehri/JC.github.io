@@ -1,0 +1,113 @@
+*{  font-family : Playfair Display , Merriweather ;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  
+  }
+ header{
+    background-color: #5c5470;   
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px; 
+
+}
+
+.logo{
+    text-decoration: none;
+    color: #F6F4FB;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8vw;
+}
+
+
+
+.NAV-BAR a { 
+color: #F6F4FB; }
+ 
+.NAV-BAR li {
+    display : inline ; 
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 20px;
+}
+
+.NAV-BAR a:hover{
+    color: #3c3158;
+  }
+
+  .navigation a{
+    color: #F6F4FB;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1vw;
+    padding-left: 20px;
+}
+
+.navigation a:hover{
+    color: #3c3158;
+  }
+
+  
+
+
+  
+ .main{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  align-content : center ; 
+} 
+
+  ul.breadcrumb {
+  align-items: center; 
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #5c5470;
+   text-align: center;
+}
+ul.breadcrumb li { 
+  color: #F6F4FB;
+  display: inline;
+  font-size: 100%;
+}
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color:  #F6F4FB ;
+  content: ">";
+}
+ul.breadcrumb li a {
+  color:  #F6F4FB;
+  text-decoration: none;
+}
+ul.breadcrumb li a:hover {
+  color: #3c3158;
+  text-decoration: underline;
+} 
+
+
+footer{
+  background-color: #5c5470;
+  color: #F6F4FB;
+  padding: 2vw; 
+}  
+footer a{
+  color: #F6F4FB;
+  font-weight: bold;
+  font-size: 1.2vw;
+  padding: 2px 11px;
+  border-radius: 3px;
+} 
+
+footer .rights{
+  font-size: 0.8vw;
+  padding: 1vw;
+}
+
